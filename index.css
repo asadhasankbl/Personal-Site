@@ -1,0 +1,21 @@
+p {
+  background: grey;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+#texttwo {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding: 10px;
+  alignment-baseline: central;
+  font-size: small;
+  font-size-adjust: inherit;
+  float: right
+
+  
+}
