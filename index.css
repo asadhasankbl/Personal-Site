@@ -1,21 +1,48 @@
-p {
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.toptext {
   background: grey;
   color: white;
   text-transform: uppercase;
   font-family: sans-serif;
   padding: 10px;
+  margin-top: 0px;
 }
 
+.pbody {
+  font-family: monospace;
+  padding: 20px;
+  font-size: medium;
+}
 #texttwo {
-  background-color: rgb(219, 219, 219);
-  color: black;
+  background-color: white;
   text-transform: uppercase;
   font-family: sans-serif;
   padding: 10px;
-  alignment-baseline: central;
-  font-size: small;
-  font-size-adjust: inherit;
-  float: right
+  font-size: large;
+  text-align: right;
+}
 
-  
+
+.icons li{
+  display: inline;
+  margin-right: 10px;
+  size: auto;
+}
+
+img:hover {
+  background-color: black;
+  size: 70px;
+}
+
+.image{
+  border-radius: 50%;
+}
+
+.right {
+float: right;
+margin-top: 5px;
 }
